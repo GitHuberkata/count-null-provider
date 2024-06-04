@@ -1,9 +1,8 @@
 
-terraform {
-  cloud {
-    organization = "petya-gavrilova"
-    workspaces {
-      name = "test"
+/*terraform {
+  backend "remote" {
+    organization = "petya-business"
+    name = "test"
     }
   }
 
@@ -14,3 +13,4 @@ required_providers {
     }
   }
 }
+*\
